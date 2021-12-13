@@ -1,5 +1,5 @@
 # test_capitalize.py
-import capitalize
+from capitalize import *
 
 def test_capitalize_string():
     assert capitalize_string('test') == 'Test'
